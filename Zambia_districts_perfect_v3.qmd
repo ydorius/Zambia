@@ -1,0 +1,58 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.20.0-Odense">
+  <identifier>Zambia_ConstituenciesAndWards_2006to2010_UTM35S</identifier>
+  <parentidentifier></parentidentifier>
+  <language>ENG</language>
+  <type>dataset</type>
+  <title>Zambian 2006 to 2010 Constituency and Ward Boundaries</title>
+  <abstract>This polygon shapefile represents best estimates of ward and constituency boundaries in Zambia based on available sources. The primary source for this layer is a set of printed maps of 2006-2010 ward and constituency boundaries provided by the Election Commission of Zambia (ECZ) to the author. However, these printed maps had three issues: (1) The packet was incomplete (maps for some constituencies and districts showed planned post-2010 ward boundaries rather than 2006-2010 actual wards); (2) The different layers in the file -- boundary edges, geographic features, and city locations -- had misalignments in many places, making it impossible to use geographic features for geo-referencing; (3) Some (small) wards could not be distinguished from one another in the printed maps. As a result: (1) Note all wards are included (see ward names and codes in the attribute definitions); (2) Georeferencing was primarily accomplished by matching stretches of constituency boundaries in the 2006-2010 maps with those in a Zambian Central Statistics Office-provided map of constituency and ward boundaries from the 2001-2005 period that had clearly not been changed between 2005 and 2006. Some additional inferences were made using of satellite maps of rivers and cities where boundaries were clearly drawn to follow rivers or large roads; (3) some wards have been merged into single polyons.
+
+This dataset is intended for researchers, students, policy makers and the general public, for reference and mapping purposes, and may be used for basic applications such as viewing, querying, and map output production, or to provide a basemap to support graphical overlays and analysis with other spatial data.</abstract>
+  <keywords vocabulary="gmd:topicCategory">
+    <keyword>Administrative and political divisions</keyword>
+    <keyword>Districts</keyword>
+  </keywords>
+  <contact>
+    <contactAddress>
+      <type>physical</type>
+      <address>Branner Earth Sciences Library</address>
+      <city>Stanford</city>
+      <administrativearea>California</administrativearea>
+      <postalcode>94305</postalcode>
+      <country></country>
+    </contactAddress>
+    <name></name>
+    <organization>Stanford Geospatial Center</organization>
+    <position></position>
+    <voice>650-723-2746</voice>
+    <fax></fax>
+    <email>brannerlibrary@stanford.edu</email>
+    <role>Point of contact</role>
+  </contact>
+  <links/>
+  <fees></fees>
+  <rights>Eubank, Nicholas. (2014). Zambian 2006 to 2010 Constituency and Ward Boundaries. Available at: http://purl.stanford.edu/yc436vm9005.</rights>
+  <encoding></encoding>
+  <crs>
+    <spatialrefsys>
+      <wkt>PROJCRS["WGS 84 / UTM zone 35S",BASEGEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4326]],CONVERSION["UTM zone 35S",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",27,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",10000000,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Engineering survey, topographic mapping."],AREA["Between 24°E and 30°E, southern hemisphere between 80°S and equator, onshore and offshore. Botswana. Burundi. Democratic Republic of the Congo (Zaire). Rwanda. South Africa. Tanzania. Uganda. Zambia. Zimbabwe."],BBOX[-80,24,0,30]],ID["EPSG",32735]]</wkt>
+      <proj4>+proj=utm +zone=35 +south +datum=WGS84 +units=m +no_defs</proj4>
+      <srsid>3185</srsid>
+      <srid>32735</srid>
+      <authid>EPSG:32735</authid>
+      <description>WGS 84 / UTM zone 35S</description>
+      <projectionacronym>utm</projectionacronym>
+      <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </crs>
+  <extent>
+    <spatial maxz="0" maxx="33.92900000000000205" dimensions="2" maxy="-8.18870000000000076" minx="21.87750000000000128" minz="0" crs="EPSG:32735" miny="-18.07649999999999935"/>
+    <temporal>
+      <period>
+        <start>2014-12-06T22:00:00Z</start>
+        <end></end>
+      </period>
+    </temporal>
+  </extent>
+</qgis>
